@@ -10,3 +10,11 @@ export interface CustomButtonProps {
   handleClick?: MouseEventHandler<HTMLButtonElement>;
   btnType?: "button" | "submit";
 }
+
+export interface FilterProps {
+  manufacturer?: string;
+  year?: number;
+  model?: string;
+  limit?: number;
+  fuel?: string;
+}
